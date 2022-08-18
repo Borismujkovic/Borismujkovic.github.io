@@ -8,10 +8,9 @@ import { Switch, Route } from "react-router-dom";
 const Movies = () => {
   const [selectedMovie, setSelectedMovie] = useState([]);
   const [data, setData] = useState([]);
-  console.log(data);
 
   const fetchData = () => {
-    fetch("https://api.tvmaze.com/shows", {mode: "cors"})
+    fetch("https://api.tvmaze.com/shows")
       .then((res) => res.json())
       .then((response) =>
         setData(
