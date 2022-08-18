@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Josefin+Sans:ital,wght@1,100&family=Kdam+Thmor+Pro&family=Tiro+Gurmukhi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tiro Gurmukhi", serif;
+}
