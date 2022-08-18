@@ -41,6 +41,7 @@ const HomePage = (props) => {
           alt=""
         />
         <input type="search" onChange={filteredMovies} />
+        <button onClick={fetchData}>klik</button>
       </div>
       <div className="movies-wrapper">
         {filtered.map((e) => (
