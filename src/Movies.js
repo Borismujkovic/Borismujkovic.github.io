@@ -11,7 +11,7 @@ const Movies = () => {
   console.log(data);
 
   const fetchData = () => {
-    fetch("http://api.tvmaze.com/shows", {mode: "cors"})
+    fetch("https://api.tvmaze.com/shows", {mode: "cors"})
       .then((res) => res.json())
       .then((response) =>
         setData(
