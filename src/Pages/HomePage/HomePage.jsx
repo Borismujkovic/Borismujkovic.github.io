@@ -15,9 +15,10 @@ const HomePage = (props) => {
   const filteredMovies = (event) => {
     setSearch(event.target.value);
   };
+  console.log(datan);
 
   const fetchData = () => {
-    fetch("hhttps://rickandmortyapi.com/api/character")
+    fetch("https://rickandmortyapi.com/api/character")
       .then((res) => res.json())
       .then((response) =>
         setDatan(
