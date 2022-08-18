@@ -27,6 +27,8 @@ const SinglePage = (props) => {
     fetch(`https://api.tvmaze.com/shows/${id}/cast`)
       .then((res) => res.json())
       .then((res) => setCast(res));
+
+      
   };
 
   useEffect(() => {

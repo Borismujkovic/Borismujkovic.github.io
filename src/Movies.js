@@ -8,6 +8,7 @@ import { Switch, Route } from "react-router-dom";
 const Movies = () => {
   const [selectedMovie, setSelectedMovie] = useState([]);
   const [data, setData] = useState([]);
+  console.log(data);
 
   const fetchData = () => {
     fetch("http://api.tvmaze.com/shows")
